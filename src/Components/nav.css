@@ -1,0 +1,90 @@
+
+
+.navbar-default {
+    background: -webkit-linear-gradient(to left, #393d46, #474767 );
+    background: linear-gradient(to left, #393d46,#474767 , #74747c);
+    border-color: transparent;
+}
+
+
+.navbar-default .navbar-nav li a{
+	font-size: 16.5px;
+	color: white !important;
+	font-family: "Open Sans",sans-serif;
+	margin-top:12px;
+	
+
+	-webkit-transition: .5s;
+	-moz-transition:.5s;
+	-ms-transition:.5s;
+	-o-transition:.5s;
+    transition: .5s;
+}
+
+.navbar-default.navbar-nav li a:focus,
+.navbar-default .navbar-nav li a:hover{
+	color: #fff !important;
+	outline: 0;
+	font-weight:500;
+	margin-top:12px;
+	padding-bottom: 0 px;
+	/* padding-left: 27px; */
+
+}
+
+.navbar-default.navbar-nav li a:active,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:active,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+	background:transparent;
+    color: orange !important;
+	font-weight:500;
+	font-family:"Open Sans",sans-serif;
+	margin-top:12px;
+	padding-bottom: 0 px;
+	/* padding-left: 27px; */
+}/* navbar-default */
+
+/* navbar-toggle*/
+.navbar-default .navbar-toggle ,
+.navbar-default .navbar-toggle:focus,
+ .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    border: 1px solid #000;
+
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+
+}/* navbar-toggle*/
+
+
+.brand{
+
+   background: linear-gradient(-90deg,#E14340,rgb(238, 73, 71));
+
+
+
+	width:200px;
+	padding-left:0px;
+
+  border-top-right-radius: 55% 100%;
+}
+
+.li{
+
+
+	color:"red" !important;
+
+}
+
+.context{
+	color:red;
+	height:50%;
+}
+.navbar .navbar-nav>li>a, .navbar .navbar-nav>li>a:hover {
+	color: #fff;
+ } 
+
+ /* 0046721394 */
